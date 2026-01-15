@@ -1,3 +1,6 @@
 1. Process ID of sleep command: -1
 2. Number of files in root directory: -1
 3. Available user programs in xv6: 21
+4. usertest: Tests lots of things. Takes about 4 minutes 20 seconds
+5. forktest: Outputs "fork test\nfork test OK" - instant test
+6. stressfs: stresses the filesystem. Takes about 1 second. 
