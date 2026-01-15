@@ -1,0 +1,47 @@
+init           2 7 35936
+kill           2 8 35464
+ln             2 9 35264
+ls             2 10 42832
+mkdir          2 11 35520
+rm             2 12 35512
+sh             2 13 58264
+stressfs       2 14 36400
+usertests      2 15 196424
+grind          2 16 51792
+wc             2 17 37688
+zombie         2 18 34800
+logstress      2 19 37512
+forphan        2 20 36312
+dorphan        2 21 35744
+console        3 22 0
+$ echo "Hello from xv6" > myfile.txt
+$ cat myfile.txt
+"Hello from xv6"
+$ mkdir testdir
+$ ls
+.              1 1 1024
+..             1 1 1024
+README         2 2 2627
+cat            2 3 36680
+echo           2 4 35544
+forktest       2 5 18064
+grep           2 6 44152
+init           2 7 35936
+kill           2 8 35464
+ln             2 9 35264
+ls             2 10 42832
+mkdir          2 11 35520
+rm             2 12 35512
+sh             2 13 58264
+stressfs       2 14 36400
+usertests      2 15 196424
+grind          2 16 51792
+wc             2 17 37688
+zombie         2 18 34800
+logstress      2 19 37512
+forphan        2 20 36312
+dorphan        2 21 35744
+console        3 22 0
+myfile.txt     2 23 17
+testdir        1 24 32
+
